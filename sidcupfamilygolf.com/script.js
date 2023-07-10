@@ -11,7 +11,7 @@ document.addEventListener("mousemove",function(dets){
 var h4all = document.querySelectorAll("#nav h4")
 h4all.forEach(function(elem){
     elem.addEventListener("mouseenter",function(){
-        crsr.style.scale = 4
+        crsr.style.scale = 3
         crsr.style.border = "0.5px solid #fff"
         crsr.style.backgroundColor = "transparent"
     })
